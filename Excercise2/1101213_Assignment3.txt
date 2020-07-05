@@ -1,0 +1,14 @@
+Assignment No: 3 
+***Neural Network***
+
+To adjust the appropriate amount of weights and biases, 
+we need to derivative the loss function with respect to the weights and biases.
+
+Line number 30 and 31 has some changes regaring to the iteration.
+
+        self.weights1 += d_weights1
+        self.weights2 += d_weights2
+
+We need to modify code with "+" to get the output with respect to weights and biases.
+
+To get the slope of the loss function we add values in previous steps. 
